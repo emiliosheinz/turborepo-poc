@@ -4,7 +4,7 @@ export default function App() {
   return (
     <div>
       <h1>APP A</h1>
-      <Button />
+      <Button>{"Default Button"}</Button>
     </div>
   );
 }
