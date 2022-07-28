@@ -1,6 +1,6 @@
 import { Button } from "components";
 
-export default function Docs() {
+export default function App() {
   return (
     <div>
       <h1>APP A</h1>
