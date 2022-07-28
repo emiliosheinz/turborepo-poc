@@ -1,4 +1,4 @@
-import { Button } from "ui";
+import { Button } from "components";
 
 export default function Web() {
   return (
