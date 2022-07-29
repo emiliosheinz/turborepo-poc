@@ -1,1 +1,1 @@
-export * from "./button";
+export { Button } from "./_common/button";
