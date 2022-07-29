@@ -1,1 +1,1 @@
-export { Button } from "./_common/button";
+export { Button } from "button";
