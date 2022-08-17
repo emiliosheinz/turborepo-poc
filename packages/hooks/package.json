@@ -1,10 +1,10 @@
 {
-  "name": "components",
+  "name": "hooks",
+  "version": "0.0.0",
   "license": "MIT",
-  "main": "./_common/index.ts",
-  "types": "./_common/index.ts",
   "scripts": {
-    "lint": "eslint *.ts*"
+    "lint": "eslint *.ts*",
+    "components": "*"
   },
   "devDependencies": {
     "@types/react": "^17.0.37",
@@ -12,7 +12,6 @@
     "eslint": "^7.32.0",
     "eslint-config-custom": "*",
     "react": "^17.0.2",
-    "sass": "^1.54.0",
     "tsconfig": "*",
     "typescript": "^4.5.2"
   }

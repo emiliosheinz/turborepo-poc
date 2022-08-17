@@ -1,4 +1,4 @@
-import { Button } from "components/_common";
+import { Button } from "components";
 
 export default function App() {
   return (
