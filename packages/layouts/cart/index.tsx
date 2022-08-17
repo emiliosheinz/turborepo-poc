@@ -1,5 +1,5 @@
 import { CartPageProps } from "./types";
-import { Button } from "components";
+import { Button } from "components/_common";
 
 export function CartPage(props: CartPageProps) {
   return (
