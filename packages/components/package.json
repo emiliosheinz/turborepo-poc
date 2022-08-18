@@ -1,5 +1,6 @@
 {
   "name": "components",
+  "version": "0.0.0",
   "license": "MIT",
   "main": "./_common/index.ts",
   "types": "./_common/index.ts",

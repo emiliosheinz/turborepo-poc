@@ -1,4 +1,4 @@
-import { CartPage } from "../layouts/cart";
+import { CartPage } from "layouts/app-a";
 
 export default function Cart() {
   return <CartPage />;
