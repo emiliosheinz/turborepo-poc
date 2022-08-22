@@ -1,4 +1,7 @@
 const withTM = require("next-transpile-modules")(["components", "layouts"]);
+const withBundleAnalyzer = require("@next/bundle-analyzer")({
+  enabled: false,
+});
 
 const FlavorResolverPlugin = {
   apply: (compiler) => {
@@ -26,12 +29,14 @@ const FlavorResolverPlugin = {
   },
 };
 
-module.exports = withTM({
-  reactStrictMode: true,
-  webpack: (config) => {
-    config.resolve.plugins = [FlavorResolverPlugin];
-    console.log(config.resolve.plugins);
+module.exports = withBundleAnalyzer(
+  withTM({
+    reactStrictMode: true,
+    webpack: (config) => {
+      config.resolve.plugins = [FlavorResolverPlugin];
+      console.log(config.resolve.plugins);
 
-    return config;
-  },
-});
+      return config;
+    },
+  })
+);
