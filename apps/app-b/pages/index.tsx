@@ -5,6 +5,7 @@ export default function App() {
     <div>
       <h1>APP B</h1>
       <h2>{`Environment: ${process.env.NEXT_PUBLIC_ENVIRONMENT}`}</h2>
+      <p>Adding new stuff to app B</p>
       <Button>{"Custom Button"}</Button>
     </div>
   );
